@@ -1,0 +1,16 @@
+#scene {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+    background: #75d8bf;
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(117, 216, 191, 1) 0%, rgba(30, 87, 153, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(117, 216, 191, 1) 0%, rgba(30, 87, 153, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(117, 216, 191, 1) 0%, rgba(30, 87, 153, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75d8bf', endColorstr='#1e5799', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
